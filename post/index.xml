@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post on Byron Mansfield&#39;s personal blog</title>
+    <link>/post/index.xml</link>
+    <description>Recent content in Post on Byron Mansfield&#39;s personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2017</copyright>
+    <lastBuildDate>Thu, 05 Jan 2017 17:24:27 -0800</lastBuildDate>
+    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The days inch closer</title>
+      <link>/post/2017/01/05/the-days-inch-closer/</link>
+      <pubDate>Thu, 05 Jan 2017 17:24:27 -0800</pubDate>
+      
+      <guid>/post/2017/01/05/the-days-inch-closer/</guid>
+      <description>&lt;p&gt;So we are now out of our apartment and staying at a temporary house while we sell off what is left of our belongings. We&amp;rsquo;ve managed to sell all of our furniture, most of the major kitchen things. The only things left are my girlfriends shoes, clothes, and some dust collectors. So it&amp;rsquo;s not like we have to sell any of those things, but the extra money wouldn&amp;rsquo;t hurt.&lt;/p&gt;
+
+&lt;p&gt;Since leaving my full time job, I&amp;rsquo;ve shifted much of my focus to any research and prep for our upcoming travels, and other ways we can make income on the road. Don&amp;rsquo;t get me wrong, I&amp;rsquo;ve certainly done some useless surfing of the web, endless scrolling through the book face and what not. But I think I&amp;rsquo;ve made pretty good progress fleshing out some of our plans.&lt;/p&gt;
+
+&lt;p&gt;Up until now it&amp;rsquo;s been the distant fantasy that we will be half way around the world exploring new and exciting places. But things are getting pretty real, pretty quick. Before I know it we will be buying a ticket for our amtrak trip. I&amp;rsquo;m getting really excited.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why I love Golang</title>
+      <link>/post/2016/11/25/why-i-love-go/</link>
+      <pubDate>Fri, 25 Nov 2016 20:16:01 -0800</pubDate>
+      
+      <guid>/post/2016/11/25/why-i-love-go/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;/static/images/gopher.png&#34; alt=&#34;Golang&#34; title=&#34;Golang&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you know me at all, you probably know that I am a Golang advocate. Like most my other posts, this is only my opinion and you may not agree. But for those that might be reading this and curious about it, this post will aim at highlighting what I view as it&amp;rsquo;s areas where it shines, and why those appeal to me. Let&amp;rsquo;s get started.&lt;/p&gt;
+
+&lt;h5 id=&#34;out-of-the-way&#34;&gt;Out of the way&lt;/h5&gt;
+
+&lt;p&gt;What do I mean by this. One of Go&amp;rsquo;s primary goals is to be a language that just get&amp;rsquo;s out of your way and lets you just code. Whew! Finally! I don&amp;rsquo;t know about you, but dealing with many other languages that all come with their caveats and special needs, this is a huge relief. So let me apply some more real world context around this.&lt;/p&gt;
+
+&lt;p&gt;If you are a developer working on a project with a Linux user and a Windows user. Go doesn&amp;rsquo;t care. It&amp;rsquo; handles all this for you. As long as you set up a few very simple requirements described in the setup instructions (and I mean very minimal and super easy) then Go will handle the rest. Just pull the latest changes, make your own, and push them. End of story.&lt;/p&gt;
+
+&lt;p&gt;Dependencies. Yes on a small scale this is more realistic. And larger projects like Docker may need some more support. But in hindsight, the package management is trivial compared to some other languages. One less thing to worry about.&lt;/p&gt;
+
+&lt;p&gt;Cross platform compilation. Go lets you compile for all platforms. You can distribute your binary to anyone.&lt;/p&gt;
+
+&lt;h5 id=&#34;support&#34;&gt;Support&lt;/h5&gt;
+
+&lt;p&gt;Well aside that it&amp;rsquo;s backed by one of the internet giants (which doesn&amp;rsquo;t always fair well, but in this case seems to) The community has been very positive in supporting and contributing to the project comparatively to many other open source languages. Iterations are not too fast, but fast enough that major issues do not go long before &lt;strong&gt;proper&lt;/strong&gt; fixes are in place. Speaking of which, the thoroughness of their releases is immaculate. When they release an iteration, it is put through the ringers first.&lt;/p&gt;
+
+&lt;h5 id=&#34;simplicity&#34;&gt;Simplicity&lt;/h5&gt;
+
+&lt;p&gt;I guess I could label this maybe ease of writing the code. It feels very much like a language such as python in the since that it&amp;rsquo;s just easy to pick up, and easy to hammer a proof of concept out. This is super powerful for iterating quickly. Another thing I consider powerful in it&amp;rsquo;s simplicity is it&amp;rsquo;s built in libraries. You will find that you will not need many third-party libraries comparatively to other languages. Which also means much more stable support. Not that you wont, it&amp;rsquo;s just significantly less.&lt;/p&gt;
+
+&lt;h5 id=&#34;favorite-features-in-a-language&#34;&gt;Favorite Features in a language&lt;/h5&gt;
+
+&lt;p&gt;Now this may be just my opinion, but these are things that I favor and I think important to know if you are considering using or learning Go.&lt;/p&gt;
+
+&lt;p&gt;It is a functional language. It has no classes. In this since you can think of it more like C or JavaScript (ES5).&lt;/p&gt;
+
+&lt;p&gt;Super fast compile time.&lt;/p&gt;
+
+&lt;p&gt;True multi-threading.&lt;/p&gt;
+
+&lt;p&gt;It got language of the year in 2010.&lt;/p&gt;
+
+&lt;p&gt;Tiny footprint. What I mean by this, is that the language itself is small, the complied binary of your project is super tiny, it uses very little host resources. It&amp;rsquo;s simply beautiful.&lt;/p&gt;
+
+&lt;p&gt;The success stories. The common one everyone loves to gloat about is Docker. And yes, it is simply amazing what the project built on pretty much 100% Go can do. But so many other projects built in mostly Golang are starting to spawn left and right, all displaying how fast they can iterate with simplicity, minimal code, flexibility, next to nothing footprints, and much more. Look at Rancher, kubernetes ,etcd, logstash-forwarder, grafana, prometheus, heck, even the Golang compiler is mostly Go. Then you look at projects like go-workers that are over 1000 times faster than sidekiq and resque. Stories like Iron.io going from 30 servers to 2 (2 simply for redundancy) all made from newcomers to the language. I mean come on, how you can you deny it&amp;rsquo;s power.&lt;/p&gt;
+
+&lt;h5 id=&#34;closing&#34;&gt;Closing&lt;/h5&gt;
+
+&lt;p&gt;Is it the answer to all my problems. Absolutely not. I still firmly believe in (the right tool for the job). But it fits into that category more times than none. Or at least as a valid option. Am I a full time Golang programmer that knows all the Golang woes, no I am not. But I have worked with many people whom have switched in their full time development and told me about the woes and pitfalls and caveats. Comparatively to other languages, hardly anything scary.&lt;/p&gt;
+
+&lt;p&gt;Am I trying to convince you to make the switch from whatever is your favorite language today. Absolutely not. What makes you a badass software developer is whats best for you. Do I believe it should be at the top of your list of languages to explore and learn, Absolutely!&lt;/p&gt;
+
+&lt;p&gt;Thats all for now. I hope you guys enjoyed this read and found some value in it. Thanks for reading.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tmux and Vim</title>
+      <link>/post/2016/11/25/tmux-and-vim/</link>
+      <pubDate>Fri, 25 Nov 2016 17:25:22 -0800</pubDate>
+      
+      <guid>/post/2016/11/25/tmux-and-vim/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;ve ever worked with me or happened to pair program with me or maybe just stepped over to my desk to show me something, you probably know I love tmux and vim, and if you do not use them, you probably don&amp;rsquo;t know how to use my termainl. And even if you do, you probably don&amp;rsquo;t know my personal setup. This segment is just a little rant about why I love them both, and love them paired together. I also get commonly from co-workers &amp;ldquo;I don&amp;rsquo;t know how to use your terminal bro&amp;rdquo;. It&amp;rsquo;s always too much to walk them through it when your trying to work through an issue. Hopefully this post will leave those individuals with a little more of an understanding of whats going on with my terminal bro.&lt;/p&gt;
+
+&lt;p&gt;Here is an example of my tmux and vim setup looks like.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/static/images/tmux-and-vim.png&#34; alt=&#34;tmux and vim&#34; title=&#34;tmux with vim&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lets start basic. Since becoming a vagabond I have a mac because they make a nice portable laptop and I can rely on it and not have to waste time trying to configure linux to do things mac does out of the box. It makes me sad, but this is how it is. So with that said,&lt;/p&gt;
+
+&lt;p&gt;iTerm2 + Oh-my-zsh&lt;/p&gt;
+
+&lt;p&gt;Nothing crazy going on here, but just thought I&amp;rsquo;d call it out. Now, moving on to zsh config.&lt;/p&gt;
+
+&lt;p&gt;This one seems to throw more people off than I expected, which comes to sorta as a surprise to me, but hey, I&amp;rsquo;ll still point it out.&lt;/p&gt;
+
+&lt;p&gt;I have my own custom prompt. You can find it in my dotfiles repo.&lt;/p&gt;
+
+&lt;p&gt;Another one I&amp;rsquo;ve seen people jump back an inch out of surprise and then lean in to see it closer.&lt;/p&gt;
+
+&lt;p&gt;I run archey at the beginning of ever fresh session. I can&amp;rsquo;t help it. I miss Arch. It also evals some of my gpg and ssh keys to keychain.&lt;/p&gt;
+
+&lt;p&gt;Ok, now that we got the basic context, lets move on to more interesting things, like TMUX, because I pretty much always live inside a tmux session.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve remapped the leader to be Ctrl A like screen. It&amp;rsquo;s more intuitive to me than the default Ctrl B. I&amp;rsquo;ve customized the status bar quite a bit. I use plugins to manage my session and back it up, so that I can restore it.&lt;/p&gt;
+
+&lt;p&gt;Here is one that gets under some of my co-workers skin. I have disabled the mouse support. Bwahahaha. I love when they get frustrated over that. I have to comment on why, because I always get asked. Because I HATE REACHING FOR THE MOUSE! I key bind everything I can to vi bindings. I even use vimium to make browsing the web more keyboard driven.&lt;/p&gt;
+
+&lt;p&gt;Because it&amp;rsquo;s a tileing window manager for your terminal, and I love vim, I&amp;rsquo;ve remapped all of the splitting of windows and panes, as well as navigating them more vim like. The default way is so painful. Now things are starting to feel like home.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve probably bored you to death with my tmux explination, I guess lets move on to vim.&lt;/p&gt;
+
+&lt;p&gt;All the basics are there that you would expect, set numbers, set syntax, mapped my leader to comma, some other sane settings. Here is my favorite that I get like &amp;ldquo;Why the hell would you do that?&amp;rdquo;. I remapped my arrow keys to be more useful because you shouldn&amp;rsquo;t be using arrow keys in vim. Or at least that is my belief. Call me old school or whatever. Stay on homerow. End of story. They now just move things around. This is useful for quickly indenting a visual block and such.&lt;/p&gt;
+
+&lt;p&gt;I have some nice plugins like nerdtree, youcompleteme, rainbow parentheses. The coolest thing I&amp;rsquo;ve done is a little ctags trick with git + tag bar. I can now have a birds eye view of the files types, functions, methods, etc, and jump to them quickly and easily.&lt;/p&gt;
+
+&lt;p&gt;Think that is it for now. I&amp;rsquo;ll try to add more to this post later.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Free Time</title>
+      <link>/post/2016/11/25/free-time/</link>
+      <pubDate>Fri, 25 Nov 2016 16:14:57 -0800</pubDate>
+      
+      <guid>/post/2016/11/25/free-time/</guid>
+      <description>
+
+&lt;p&gt;In the past day and a half, I&amp;rsquo;ve gotten a lot of things done. Mostly nerdy type tasks, but some useful and productive ones as well. I have this free time because of the Thanksgiving break. But in the near future I will have tons of freetime. Well sort of. Free in the sense that no one is forcing me to do anything in particular. However it would be wise to use the time wisely and constructively.&lt;/p&gt;
+
+&lt;h4 id=&#34;what-i-ve-done&#34;&gt;What I&amp;rsquo;ve done&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spent some time learning how to play the piano&lt;/li&gt;
+&lt;li&gt;Relaxed&lt;/li&gt;
+&lt;li&gt;Learned a little bit more about Logic Pro and some tips and tricks on how to make some songs. (Really good tips too, saved me a ton of time. Plus found some new really amazing YouTube channels)&lt;/li&gt;
+&lt;li&gt;Completely redid my tmux and vim configs&lt;/li&gt;
+&lt;li&gt;Got more familiarized with setting up this github pages project with hugo&lt;/li&gt;
+&lt;li&gt;Of course spent some time cooking and eating for T-Day&lt;/li&gt;
+&lt;li&gt;Listed and sold things through selling apps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;whew&#34;&gt;Whew&lt;/h4&gt;
+
+&lt;p&gt;I feel pretty good about it. Some of the time was just catching up on things that I have been really wanting to do. Other things were pretty productive. If not beneficial now, I&amp;rsquo;m confident that I will find it very beneficial later down the road.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Getting Ready To Travel</title>
+      <link>/post/2016/11/24/getting-ready-to-travel/</link>
+      <pubDate>Thu, 24 Nov 2016 22:14:24 -0800</pubDate>
+      
+      <guid>/post/2016/11/24/getting-ready-to-travel/</guid>
+      <description>&lt;p&gt;So today is Thanksgiving Day. I am now back at my nearly empty house with realizations of our new life ahead. As we wind down our currently lives and gear up for our new ones, you start to notice different things. So I&amp;rsquo;m here, rubbing my belly on my couch (thank god it&amp;rsquo;s still here) and catching up on some fun youtube video from my subscribers, many of which specialize in the traveling sector, one of my favorite vloggers has posted &lt;a href=&#34;https://www.youtube.com/watch?v=C06Qmysp2Rk&#34;&gt;a video&lt;/a&gt; of a break down due to her stress on the road. This made me realize some things to be aware of before I started my journey. Now I wasn&amp;rsquo;t quite prepared for the &lt;a href=&#34;https://www.youtube.com/watch?v=UdAYqZ_fNew&#34;&gt;following video&lt;/a&gt;, which was strategically placed as a follow up video, in which the vlogger was years before where the topic was things you get sick of after traveling.&lt;/p&gt;
+
+&lt;p&gt;It was very interesting to see the after then before. All in all it was good. It was just a great way to frame the content in that order. I&amp;rsquo;m still looking forward to our journey. I certainly don&amp;rsquo;t expect it will end after this trip. But I think this realization has certainly been helpful in preparing us for what lies ahead.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

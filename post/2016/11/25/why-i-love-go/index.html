@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+
+
+    
+        
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="//static/images/gophers-working.jpg"/>
+    
+
+
+
+<meta name="twitter:title" content="Why I love Golang"/>
+<meta name="twitter:description" content="If you know me at all, you probably know that I am a Golang advocate. Like most my other posts, this is only my opinion and you may not agree. But for those that might be reading this and curious about it, this post will aim at highlighting what I view as it&rsquo;s areas where it shines, and why those appeal to me. Let&rsquo;s get started.
+Out of the way What do I mean by this."/>
+
+    <meta name="twitter:site" content="@bmansfield_83"/>
+
+
+
+  	<meta property="og:title" content=" Why I love Golang &middot;  Byron Mansfield&#39;s personal blog" />
+  	<meta property="og:site_name" content="Byron Mansfield&#39;s personal blog" />
+  	<meta property="og:url" content="/post/2016/11/25/why-i-love-go/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2016-11-25T20:16:01-08:00" />
+
+    
+    <meta property="og:article:tag" content="golang" />
+    
+    <meta property="og:article:tag" content="gopher" />
+    
+    <meta property="og:article:tag" content="technologies" />
+    
+    <meta property="og:article:tag" content="favorites" />
+    
+    
+
+    <title>
+       Why I love Golang &middot;  Byron Mansfield&#39;s personal blog
+    </title>
+
+    <meta name="description" content="Byron Mansfield Personal Blog" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Byron Mansfield&#39;s personal blog" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.18-DEV" />
+
+    <link rel="canonical" href="/post/2016/11/25/why-i-love-go/" />
+
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        <li><a href="/">Home</a></li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="/">Blog</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="/about">About</a>
+            </li>
+        
+    </ul>
+
+    
+    <a class="subscribe-button icon-feed" href="/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+  
+  <header class="main-header post-head" style="background-image: url(//static/images/gophers-working.jpg)">
+  
+  <nav class="main-nav overlay clearfix">
+
+
+  
+      <a class="blog-logo" href="/"><img src="/static/images/logo.jpg" alt="Home" /></a>
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Why I love Golang</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2016-11-25T20:16:01-08:00">
+            Nov 25, 2016
+          </time>
+        
+         
+          <span class="post-tag small"><a href="/tags/golang/">#golang</a></span>
+         
+          <span class="post-tag small"><a href="/tags/gopher/">#gopher</a></span>
+         
+          <span class="post-tag small"><a href="/tags/technologies/">#technologies</a></span>
+         
+          <span class="post-tag small"><a href="/tags/favorites/">#favorites</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      
+
+<p><img src="/static/images/gopher.png" alt="Golang" title="Golang" /></p>
+
+<p>If you know me at all, you probably know that I am a Golang advocate. Like most my other posts, this is only my opinion and you may not agree. But for those that might be reading this and curious about it, this post will aim at highlighting what I view as it&rsquo;s areas where it shines, and why those appeal to me. Let&rsquo;s get started.</p>
+
+<h5 id="out-of-the-way">Out of the way</h5>
+
+<p>What do I mean by this. One of Go&rsquo;s primary goals is to be a language that just get&rsquo;s out of your way and lets you just code. Whew! Finally! I don&rsquo;t know about you, but dealing with many other languages that all come with their caveats and special needs, this is a huge relief. So let me apply some more real world context around this.</p>
+
+<p>If you are a developer working on a project with a Linux user and a Windows user. Go doesn&rsquo;t care. It&rsquo; handles all this for you. As long as you set up a few very simple requirements described in the setup instructions (and I mean very minimal and super easy) then Go will handle the rest. Just pull the latest changes, make your own, and push them. End of story.</p>
+
+<p>Dependencies. Yes on a small scale this is more realistic. And larger projects like Docker may need some more support. But in hindsight, the package management is trivial compared to some other languages. One less thing to worry about.</p>
+
+<p>Cross platform compilation. Go lets you compile for all platforms. You can distribute your binary to anyone.</p>
+
+<h5 id="support">Support</h5>
+
+<p>Well aside that it&rsquo;s backed by one of the internet giants (which doesn&rsquo;t always fair well, but in this case seems to) The community has been very positive in supporting and contributing to the project comparatively to many other open source languages. Iterations are not too fast, but fast enough that major issues do not go long before <strong>proper</strong> fixes are in place. Speaking of which, the thoroughness of their releases is immaculate. When they release an iteration, it is put through the ringers first.</p>
+
+<h5 id="simplicity">Simplicity</h5>
+
+<p>I guess I could label this maybe ease of writing the code. It feels very much like a language such as python in the since that it&rsquo;s just easy to pick up, and easy to hammer a proof of concept out. This is super powerful for iterating quickly. Another thing I consider powerful in it&rsquo;s simplicity is it&rsquo;s built in libraries. You will find that you will not need many third-party libraries comparatively to other languages. Which also means much more stable support. Not that you wont, it&rsquo;s just significantly less.</p>
+
+<h5 id="favorite-features-in-a-language">Favorite Features in a language</h5>
+
+<p>Now this may be just my opinion, but these are things that I favor and I think important to know if you are considering using or learning Go.</p>
+
+<p>It is a functional language. It has no classes. In this since you can think of it more like C or JavaScript (ES5).</p>
+
+<p>Super fast compile time.</p>
+
+<p>True multi-threading.</p>
+
+<p>It got language of the year in 2010.</p>
+
+<p>Tiny footprint. What I mean by this, is that the language itself is small, the complied binary of your project is super tiny, it uses very little host resources. It&rsquo;s simply beautiful.</p>
+
+<p>The success stories. The common one everyone loves to gloat about is Docker. And yes, it is simply amazing what the project built on pretty much 100% Go can do. But so many other projects built in mostly Golang are starting to spawn left and right, all displaying how fast they can iterate with simplicity, minimal code, flexibility, next to nothing footprints, and much more. Look at Rancher, kubernetes ,etcd, logstash-forwarder, grafana, prometheus, heck, even the Golang compiler is mostly Go. Then you look at projects like go-workers that are over 1000 times faster than sidekiq and resque. Stories like Iron.io going from 30 servers to 2 (2 simply for redundancy) all made from newcomers to the language. I mean come on, how you can you deny it&rsquo;s power.</p>
+
+<h5 id="closing">Closing</h5>
+
+<p>Is it the answer to all my problems. Absolutely not. I still firmly believe in (the right tool for the job). But it fits into that category more times than none. Or at least as a valid option. Am I a full time Golang programmer that knows all the Golang woes, no I am not. But I have worked with many people whom have switched in their full time development and told me about the woes and pitfalls and caveats. Comparatively to other languages, hardly anything scary.</p>
+
+<p>Am I trying to convince you to make the switch from whatever is your favorite language today. Absolutely not. What makes you a badass software developer is whats best for you. Do I believe it should be at the top of your list of languages to explore and learn, Absolutely!</p>
+
+<p>Thats all for now. I hope you guys enjoyed this read and found some value in it. Thanks for reading.</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="/" style="background-image: url(/static/images/logo.jpg)"><span class="hidden">Byron Mansfield's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="/">Byron Mansfield</a></h4>
+  
+  <p>Digital Nomad currently traveling Asia. DevOps Engineer, Amateur photographer, bike enthusiast, ex-piercer, foodie, ex-brewmaster, inspiring musician, gamer, metal head, climber, animal lover.</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Currently San Francisco</span>
+    <span class="author-link icon-link"><a href="http://byronmansfield.com">http://byronmansfield.com</a></span>
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Why%20I%20love%20Golang&nbsp;-&nbsp;Byron%20Mansfield%27s%20personal%20blog&amp;url=%2fpost%2f2016%2f11%2f25%2fwhy-i-love-go%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2f2016%2f11%2f25%2fwhy-i-love-go%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fpost%2f2016%2f11%2f25%2fwhy-i-love-go%2f&amp;description=Why%20I%20love%20Golang"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fpost%2f2016%2f11%2f25%2fwhy-i-love-go%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Byron Mansfield&#39;s personal blog</a> All rights reserved - 2017</section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+    
+</body>
+</html>
+

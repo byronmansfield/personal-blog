@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+
+
+    
+        <meta name="twitter:card" content="summary"/>
+    
+
+
+
+<meta name="twitter:title" content="Tmux and Vim"/>
+<meta name="twitter:description" content="If you&rsquo;ve ever worked with me or happened to pair program with me or maybe just stepped over to my desk to show me something, you probably know I love tmux and vim, and if you do not use them, you probably don&rsquo;t know how to use my termainl. And even if you do, you probably don&rsquo;t know my personal setup. This segment is just a little rant about why I love them both, and love them paired together."/>
+
+    <meta name="twitter:site" content="@bmansfield_83"/>
+
+
+
+  	<meta property="og:title" content=" Tmux and Vim &middot;  Byron Mansfield&#39;s personal blog" />
+  	<meta property="og:site_name" content="Byron Mansfield&#39;s personal blog" />
+  	<meta property="og:url" content="/post/2016/11/25/tmux-and-vim/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2016-11-25T17:25:22-08:00" />
+
+    
+    <meta property="og:article:tag" content="tmux" />
+    
+    <meta property="og:article:tag" content="vim" />
+    
+    <meta property="og:article:tag" content="technology" />
+    
+    
+
+    <title>
+       Tmux and Vim &middot;  Byron Mansfield&#39;s personal blog
+    </title>
+
+    <meta name="description" content="Byron Mansfield Personal Blog" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Byron Mansfield&#39;s personal blog" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.18-DEV" />
+
+    <link rel="canonical" href="/post/2016/11/25/tmux-and-vim/" />
+
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        <li><a href="/">Home</a></li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="/">Blog</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="/about">About</a>
+            </li>
+        
+    </ul>
+
+    
+    <a class="subscribe-button icon-feed" href="/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="/"><img src="/static/images/logo.jpg" alt="Home" /></a>
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Tmux and Vim</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2016-11-25T17:25:22-08:00">
+            Nov 25, 2016
+          </time>
+        
+         
+          <span class="post-tag small"><a href="/tags/tmux/">#tmux</a></span>
+         
+          <span class="post-tag small"><a href="/tags/vim/">#vim</a></span>
+         
+          <span class="post-tag small"><a href="/tags/technology/">#technology</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <p>If you&rsquo;ve ever worked with me or happened to pair program with me or maybe just stepped over to my desk to show me something, you probably know I love tmux and vim, and if you do not use them, you probably don&rsquo;t know how to use my termainl. And even if you do, you probably don&rsquo;t know my personal setup. This segment is just a little rant about why I love them both, and love them paired together. I also get commonly from co-workers &ldquo;I don&rsquo;t know how to use your terminal bro&rdquo;. It&rsquo;s always too much to walk them through it when your trying to work through an issue. Hopefully this post will leave those individuals with a little more of an understanding of whats going on with my terminal bro.</p>
+
+<p>Here is an example of my tmux and vim setup looks like.</p>
+
+<p><img src="/static/images/tmux-and-vim.png" alt="tmux and vim" title="tmux with vim" /></p>
+
+<p>Lets start basic. Since becoming a vagabond I have a mac because they make a nice portable laptop and I can rely on it and not have to waste time trying to configure linux to do things mac does out of the box. It makes me sad, but this is how it is. So with that said,</p>
+
+<p>iTerm2 + Oh-my-zsh</p>
+
+<p>Nothing crazy going on here, but just thought I&rsquo;d call it out. Now, moving on to zsh config.</p>
+
+<p>This one seems to throw more people off than I expected, which comes to sorta as a surprise to me, but hey, I&rsquo;ll still point it out.</p>
+
+<p>I have my own custom prompt. You can find it in my dotfiles repo.</p>
+
+<p>Another one I&rsquo;ve seen people jump back an inch out of surprise and then lean in to see it closer.</p>
+
+<p>I run archey at the beginning of ever fresh session. I can&rsquo;t help it. I miss Arch. It also evals some of my gpg and ssh keys to keychain.</p>
+
+<p>Ok, now that we got the basic context, lets move on to more interesting things, like TMUX, because I pretty much always live inside a tmux session.</p>
+
+<p>I&rsquo;ve remapped the leader to be Ctrl A like screen. It&rsquo;s more intuitive to me than the default Ctrl B. I&rsquo;ve customized the status bar quite a bit. I use plugins to manage my session and back it up, so that I can restore it.</p>
+
+<p>Here is one that gets under some of my co-workers skin. I have disabled the mouse support. Bwahahaha. I love when they get frustrated over that. I have to comment on why, because I always get asked. Because I HATE REACHING FOR THE MOUSE! I key bind everything I can to vi bindings. I even use vimium to make browsing the web more keyboard driven.</p>
+
+<p>Because it&rsquo;s a tileing window manager for your terminal, and I love vim, I&rsquo;ve remapped all of the splitting of windows and panes, as well as navigating them more vim like. The default way is so painful. Now things are starting to feel like home.</p>
+
+<p>I&rsquo;ve probably bored you to death with my tmux explination, I guess lets move on to vim.</p>
+
+<p>All the basics are there that you would expect, set numbers, set syntax, mapped my leader to comma, some other sane settings. Here is my favorite that I get like &ldquo;Why the hell would you do that?&rdquo;. I remapped my arrow keys to be more useful because you shouldn&rsquo;t be using arrow keys in vim. Or at least that is my belief. Call me old school or whatever. Stay on homerow. End of story. They now just move things around. This is useful for quickly indenting a visual block and such.</p>
+
+<p>I have some nice plugins like nerdtree, youcompleteme, rainbow parentheses. The coolest thing I&rsquo;ve done is a little ctags trick with git + tag bar. I can now have a birds eye view of the files types, functions, methods, etc, and jump to them quickly and easily.</p>
+
+<p>Think that is it for now. I&rsquo;ll try to add more to this post later.</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="/" style="background-image: url(/static/images/logo.jpg)"><span class="hidden">Byron Mansfield's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="/">Byron Mansfield</a></h4>
+  
+  <p>Digital Nomad currently traveling Asia. DevOps Engineer, Amateur photographer, bike enthusiast, ex-piercer, foodie, ex-brewmaster, inspiring musician, gamer, metal head, climber, animal lover.</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Currently San Francisco</span>
+    <span class="author-link icon-link"><a href="http://byronmansfield.com">http://byronmansfield.com</a></span>
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Tmux%20and%20Vim&nbsp;-&nbsp;Byron%20Mansfield%27s%20personal%20blog&amp;url=%2fpost%2f2016%2f11%2f25%2ftmux-and-vim%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2f2016%2f11%2f25%2ftmux-and-vim%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=%2fpost%2f2016%2f11%2f25%2ftmux-and-vim%2f&amp;description=Tmux%20and%20Vim"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=%2fpost%2f2016%2f11%2f25%2ftmux-and-vim%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Byron Mansfield&#39;s personal blog</a> All rights reserved - 2017</section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+    
+</body>
+</html>
+

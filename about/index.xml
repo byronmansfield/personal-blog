@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Byron Mansfield&#39;s personal blog</title>
+    <link>/about/index.xml</link>
+    <description>Recent content in About on Byron Mansfield&#39;s personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2017</copyright>
+    <lastBuildDate>Mon, 21 Nov 2016 21:26:12 -0800</lastBuildDate>
+    <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>/about/about/</link>
+      <pubDate>Mon, 21 Nov 2016 21:26:12 -0800</pubDate>
+      
+      <guid>/about/about/</guid>
+      <description>&lt;p&gt;So here is the part where I&amp;rsquo;m suppose to tell you guys who I am, and a little about myself. I&amp;rsquo;m really bad at these things, but here goes.&lt;/p&gt;
+
+&lt;p&gt;I was a DevOps Engineer in San Francisco who recently decided to travel the world. I am passionate about software development and Linux. Not sure how I ended up being a techie, I didn&amp;rsquo;t really have a typical upbringing. I was raised by hippies and lived the first 5 years of my life without running water or electricity in a cabin in the woods of North Carolina. First few months of my life even called an old school bus our home.&lt;/p&gt;
+
+&lt;p&gt;Outside of what I did in my career and my life beginnings, I have also been a welder, plumber, brewer, piercer, and tons of other things in between. Guess I was just trying to figure out what I wanted to be.&lt;/p&gt;
+
+&lt;p&gt;Other than work, I really enjoy rock climbing and the outdoors. I am also an amateur photographer and inspiring musician. While I do play the drums and guitar, it&amp;rsquo;s hard to play those while on the road. So since I&amp;rsquo;m fairly tech savvy I&amp;rsquo;ve recently started producing music in a DAW. Mostly EDM stuff.&lt;/p&gt;
+
+&lt;p&gt;Anyways, thanks for checking out my blog and getting to know me a little more. Feel free to shoot me an email.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
