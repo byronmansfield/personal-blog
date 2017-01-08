@@ -1,4 +1,4 @@
-baseurl = "https://byronmansfield.github.io/personal-blog"
+baseurl = "https://byronmansfield.github.io/personal-blog/"
 name = "Byron Mansfield"
 title = "Byron Mansfield's personal blog"
 languageCode = "en-us"
