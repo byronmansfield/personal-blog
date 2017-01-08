@@ -1,7 +1,7 @@
 # Byron Mansfield's Github Pages Blog
 
 ## Welcome
-Welcome to my github-pages blog. You can view it [here](https://byronmansfield.github.io/personal-blog/).Have a look around at some of my other repos. Maybe my dotfiles, or my vim setup.
+Welcome to my github-pages blog. You can view it [here](https://byronmansfield.github.io/personal-blog/). Have a look around at some of my other repos. Maybe my [dotfiles](https://github.com/byronmansfield/dotfiles), or my [vim setup](https://github.com/byronmansfield/dotvim).
 
 Hopefully you find something you like, and you will follow me or star one of my
 repos.
