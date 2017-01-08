@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post on Byron Mansfield&#39;s personal blog</title>
-    <link>/post/index.xml</link>
+    <link>https://byronmansfield.github.io/personal-blog/post/index.xml</link>
     <description>Recent content in Post on Byron Mansfield&#39;s personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All rights reserved - 2017</copyright>
     <lastBuildDate>Thu, 05 Jan 2017 17:24:27 -0800</lastBuildDate>
-    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://byronmansfield.github.io/personal-blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The days inch closer</title>
-      <link>/post/2017/01/05/the-days-inch-closer/</link>
+      <link>https://byronmansfield.github.io/personal-blog/post/2017/01/05/the-days-inch-closer/</link>
       <pubDate>Thu, 05 Jan 2017 17:24:27 -0800</pubDate>
       
-      <guid>/post/2017/01/05/the-days-inch-closer/</guid>
+      <guid>https://byronmansfield.github.io/personal-blog/post/2017/01/05/the-days-inch-closer/</guid>
       <description>&lt;p&gt;So we are now out of our apartment and staying at a temporary house while we sell off what is left of our belongings. We&amp;rsquo;ve managed to sell all of our furniture, most of the major kitchen things. The only things left are my girlfriends shoes, clothes, and some dust collectors. So it&amp;rsquo;s not like we have to sell any of those things, but the extra money wouldn&amp;rsquo;t hurt.&lt;/p&gt;
 
 &lt;p&gt;Since leaving my full time job, I&amp;rsquo;ve shifted much of my focus to any research and prep for our upcoming travels, and other ways we can make income on the road. Don&amp;rsquo;t get me wrong, I&amp;rsquo;ve certainly done some useless surfing of the web, endless scrolling through the book face and what not. But I think I&amp;rsquo;ve made pretty good progress fleshing out some of our plans.&lt;/p&gt;
@@ -26,13 +26,13 @@
     
     <item>
       <title>Why I love Golang</title>
-      <link>/post/2016/11/25/why-i-love-go/</link>
+      <link>https://byronmansfield.github.io/personal-blog/post/2016/11/25/why-i-love-go/</link>
       <pubDate>Fri, 25 Nov 2016 20:16:01 -0800</pubDate>
       
-      <guid>/post/2016/11/25/why-i-love-go/</guid>
+      <guid>https://byronmansfield.github.io/personal-blog/post/2016/11/25/why-i-love-go/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;/static/images/gopher.png&#34; alt=&#34;Golang&#34; title=&#34;Golang&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://byronmansfield.github.io/personal-blog/static/images/gopher.png&#34; alt=&#34;Golang&#34; title=&#34;Golang&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If you know me at all, you probably know that I am a Golang advocate. Like most my other posts, this is only my opinion and you may not agree. But for those that might be reading this and curious about it, this post will aim at highlighting what I view as it&amp;rsquo;s areas where it shines, and why those appeal to me. Let&amp;rsquo;s get started.&lt;/p&gt;
 
@@ -82,15 +82,15 @@
     
     <item>
       <title>Tmux and Vim</title>
-      <link>/post/2016/11/25/tmux-and-vim/</link>
+      <link>https://byronmansfield.github.io/personal-blog/post/2016/11/25/tmux-and-vim/</link>
       <pubDate>Fri, 25 Nov 2016 17:25:22 -0800</pubDate>
       
-      <guid>/post/2016/11/25/tmux-and-vim/</guid>
+      <guid>https://byronmansfield.github.io/personal-blog/post/2016/11/25/tmux-and-vim/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;ve ever worked with me or happened to pair program with me or maybe just stepped over to my desk to show me something, you probably know I love tmux and vim, and if you do not use them, you probably don&amp;rsquo;t know how to use my termainl. And even if you do, you probably don&amp;rsquo;t know my personal setup. This segment is just a little rant about why I love them both, and love them paired together. I also get commonly from co-workers &amp;ldquo;I don&amp;rsquo;t know how to use your terminal bro&amp;rdquo;. It&amp;rsquo;s always too much to walk them through it when your trying to work through an issue. Hopefully this post will leave those individuals with a little more of an understanding of whats going on with my terminal bro.&lt;/p&gt;
 
 &lt;p&gt;Here is an example of my tmux and vim setup looks like.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/static/images/tmux-and-vim.png&#34; alt=&#34;tmux and vim&#34; title=&#34;tmux with vim&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://byronmansfield.github.io/personal-blog/static/images/tmux-and-vim.png&#34; alt=&#34;tmux and vim&#34; title=&#34;tmux with vim&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Lets start basic. Since becoming a vagabond I have a mac because they make a nice portable laptop and I can rely on it and not have to waste time trying to configure linux to do things mac does out of the box. It makes me sad, but this is how it is. So with that said,&lt;/p&gt;
 
@@ -126,10 +126,10 @@
     
     <item>
       <title>Free Time</title>
-      <link>/post/2016/11/25/free-time/</link>
+      <link>https://byronmansfield.github.io/personal-blog/post/2016/11/25/free-time/</link>
       <pubDate>Fri, 25 Nov 2016 16:14:57 -0800</pubDate>
       
-      <guid>/post/2016/11/25/free-time/</guid>
+      <guid>https://byronmansfield.github.io/personal-blog/post/2016/11/25/free-time/</guid>
       <description>
 
 &lt;p&gt;In the past day and a half, I&amp;rsquo;ve gotten a lot of things done. Mostly nerdy type tasks, but some useful and productive ones as well. I have this free time because of the Thanksgiving break. But in the near future I will have tons of freetime. Well sort of. Free in the sense that no one is forcing me to do anything in particular. However it would be wise to use the time wisely and constructively.&lt;/p&gt;
@@ -154,10 +154,10 @@
     
     <item>
       <title>Getting Ready To Travel</title>
-      <link>/post/2016/11/24/getting-ready-to-travel/</link>
+      <link>https://byronmansfield.github.io/personal-blog/post/2016/11/24/getting-ready-to-travel/</link>
       <pubDate>Thu, 24 Nov 2016 22:14:24 -0800</pubDate>
       
-      <guid>/post/2016/11/24/getting-ready-to-travel/</guid>
+      <guid>https://byronmansfield.github.io/personal-blog/post/2016/11/24/getting-ready-to-travel/</guid>
       <description>&lt;p&gt;So today is Thanksgiving Day. I am now back at my nearly empty house with realizations of our new life ahead. As we wind down our currently lives and gear up for our new ones, you start to notice different things. So I&amp;rsquo;m here, rubbing my belly on my couch (thank god it&amp;rsquo;s still here) and catching up on some fun youtube video from my subscribers, many of which specialize in the traveling sector, one of my favorite vloggers has posted &lt;a href=&#34;https://www.youtube.com/watch?v=C06Qmysp2Rk&#34;&gt;a video&lt;/a&gt; of a break down due to her stress on the road. This made me realize some things to be aware of before I started my journey. Now I wasn&amp;rsquo;t quite prepared for the &lt;a href=&#34;https://www.youtube.com/watch?v=UdAYqZ_fNew&#34;&gt;following video&lt;/a&gt;, which was strategically placed as a follow up video, in which the vlogger was years before where the topic was things you get sick of after traveling.&lt;/p&gt;
 
 &lt;p&gt;It was very interesting to see the after then before. All in all it was good. It was just a great way to frame the content in that order. I&amp;rsquo;m still looking forward to our journey. I certainly don&amp;rsquo;t expect it will end after this trip. But I think this realization has certainly been helpful in preparing us for what lies ahead.&lt;/p&gt;
