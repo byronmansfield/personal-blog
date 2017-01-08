@@ -1,0 +1,48 @@
+baseurl = "/"
+name = "Byron Mansfield"
+title = "Byron Mansfield's personal blog"
+languageCode = "en-us"
+theme = "casper"
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+pluralizelisttitles = "false"
+Copyright = "All rights reserved - 2017"
+canonifyurls = true
+paginate = 5
+DisqusShortname = ""
+
+[params]
+  description = "Byron Mansfield Personal Blog"
+  cover = "/static/images/cover.jpg"
+  author = "Byron Mansfield"
+  authorlocation = "Currently San Francisco"
+  authorwebsite = "http://byronmansfield.com"
+  bio = "Digital Nomad currently traveling Asia. DevOps Engineer, Amateur photographer, bike enthusiast, ex-piercer, foodie, ex-brewmaster, inspiring musician, gamer, metal head, climber, animal lover."
+  logo = "static/images/logo.jpg"
+  googleAnalyticsUserID = "UA-79101-12"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  # RSSLink = "http://feeds.feedburner.com/..."
+  githubName = "byronmansfield"
+  twitterName = "bmansfield_83"
+  facebookName = "byron.mansfield"
+  linkedinName = "byron-mansfield-009b3a37"
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = true
+  [params.social]
+    twitter = "bmansfield_83"
+
+[indexes]
+  category = "Tech Blog"
+
+[[menu.main]]
+  name = "Blog"
+  weight = -120
+  identifier = "blog"
+  url = "/"
+
+[[menu.main]]
+  name = "About"
+  weight = -110
+  identifier = "about"
+  url = "/about"
